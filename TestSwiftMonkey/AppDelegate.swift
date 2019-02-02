@@ -7,15 +7,16 @@
 //
 
 import UIKit
+import SwiftMonkeyPaws
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var paws: MonkeyPaws?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        paws = MonkeyPaws(view: window!)
         return true
     }
 
