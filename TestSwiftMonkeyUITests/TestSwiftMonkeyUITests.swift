@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import SwiftMonkey
 
 class TestSwiftMonkeyUITests: XCTestCase {
 
@@ -27,8 +28,12 @@ class TestSwiftMonkeyUITests: XCTestCase {
     }
 
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let application = XCUIApplication()
+        _ = application.descendants(matching: .any).element(boundBy: 0).frame
+        let monkey = Monkey(frame: application.frame)
+        monkey.addDefaultXCTestPrivateActions()
+        monkey.addXCTestTapAlertAction(interval: 100, application: application)
+        monkey.monkeyAround()
     }
 
 }
