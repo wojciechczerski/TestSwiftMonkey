@@ -7,7 +7,7 @@ DEPENDENCIES:
   - SwiftMonkeyPaws
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - SwiftMonkey
     - SwiftMonkeyPaws
 
@@ -17,4 +17,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 7debf811948399b07c18294a52057cfc1991ec44
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.3

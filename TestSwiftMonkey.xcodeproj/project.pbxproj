@@ -234,20 +234,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TestSwiftMonkey/Pods-TestSwiftMonkey-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftMonkeyPaws/SwiftMonkeyPaws.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TestSwiftMonkey/Pods-TestSwiftMonkey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMonkeyPaws.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TestSwiftMonkey/Pods-TestSwiftMonkey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSwiftMonkey/Pods-TestSwiftMonkey-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestSwiftMonkey/Pods-TestSwiftMonkey-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		057576D05CB44B6900365FF7 /* [CP] Check Pods Manifest.lock */ = {
