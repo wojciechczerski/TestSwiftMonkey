@@ -3,18 +3,26 @@ PODS:
   - SwiftMonkeyPaws (2.1.1)
 
 DEPENDENCIES:
-  - SwiftMonkey
+  - SwiftMonkey (from `https://github.com/zalando/SwiftMonkey.git`)
   - SwiftMonkeyPaws
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - SwiftMonkey
     - SwiftMonkeyPaws
 
+EXTERNAL SOURCES:
+  SwiftMonkey:
+    :git: https://github.com/zalando/SwiftMonkey.git
+
+CHECKOUT OPTIONS:
+  SwiftMonkey:
+    :commit: 0f6849d75f1eb4ae52eb3ad1ed0ea6ac7986a364
+    :git: https://github.com/zalando/SwiftMonkey.git
+
 SPEC CHECKSUMS:
-  SwiftMonkey: aea6f2707a4b7ab5277b4d2fd2f0723a083997b1
+  SwiftMonkey: 2930564fb57ea6bcffaa60353e59ca61f3aa1192
   SwiftMonkeyPaws: 655524bb402df5ac2be836f9f604aca1068fbde6
 
-PODFILE CHECKSUM: 7debf811948399b07c18294a52057cfc1991ec44
+PODFILE CHECKSUM: 2d949af381ee2081e8e693a434aa0bf5dce4db09
 
 COCOAPODS: 1.8.3

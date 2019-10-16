@@ -6,5 +6,5 @@ target 'TestSwiftMonkey' do
 end
 
 target 'TestSwiftMonkeyUITests' do
-  pod 'SwiftMonkey'
+  pod 'SwiftMonkey', :git => 'https://github.com/zalando/SwiftMonkey.git'
 end

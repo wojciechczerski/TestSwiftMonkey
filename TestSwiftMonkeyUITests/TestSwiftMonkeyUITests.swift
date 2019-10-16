@@ -31,7 +31,7 @@ class TestSwiftMonkeyUITests: XCTestCase {
         let application = XCUIApplication()
         _ = application.descendants(matching: .any).element(boundBy: 0).frame
         let monkey = Monkey(frame: application.frame)
-        monkey.addDefaultXCTestPrivateActions()
+        monkey.addDefaultXCTestPublicActions(app: application)
         monkey.addXCTestTapAlertAction(interval: 100, application: application)
         monkey.monkeyAround()
     }
